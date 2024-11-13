@@ -1,1 +1,61 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: rgb(0, 126, 117);
+  font-weight: bold;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+section {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid white;
+  background-color: orange;
+}
+
+.nav {
+  flex: 1;
+}
+
+.content {
+  flex: 2;
+}
+
+.ads {
+  flex: 1;
+}
+
+footer {
+  height: 10vh;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255, 231, 136);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
